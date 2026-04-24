@@ -141,14 +141,17 @@ a {
 .logo-separator {
     font-weight: 300;
     color: var(--text-muted);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.5;
 }
 
 .dojo-logo-text {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 800;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     color: var(--primary-color);
+    line-height: 1;
+    margin-bottom: -5px; /* Alignment adjustment for the dot */
 }
 
 /* Hero Section */
